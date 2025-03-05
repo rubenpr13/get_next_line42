@@ -6,7 +6,7 @@
 /*   By: rpinazo- <rpinazo-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/02 13:33:02 by rpinazo-          #+#    #+#             */
-/*   Updated: 2024/10/16 11:26:16 by rpinazo-         ###   ########.fr       */
+/*   Updated: 2025/03/05 14:14:54 by rpinazo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,17 +18,17 @@
 #include <string.h>
 #include <stdio.h>
 
-#ifndef BUFFER_SIZE
-# define BUFFER_SIZE 24
+#ifndef     BUFFER_SIZE
+# define    BUFFER_SIZE 24
 #endif
 
 char    *get_next_line(int fd);
-char *line_remaining(char *stat_buff);
+char    *line_remaining(char *stat_buff);
 char    *ft_line(char *stat_buff);
 
-int ft_strlen(char *str);
+int     ft_strlen(char *str);
 char    *ft_strjoin(char *s1, char *s2);
 void	*ft_calloc(size_t size, size_t type);
-int	ft_strchr(char *str, char chr);
+int     ft_strchr(char *str, char chr);
 
 #endif

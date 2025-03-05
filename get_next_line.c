@@ -6,13 +6,13 @@
 /*   By: rpinazo- <rpinazo-@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/02 13:32:11 by rpinazo-          #+#    #+#             */
-/*   Updated: 2025/01/03 15:24:27 by rpinazo-         ###   ########.fr       */
+/*   Updated: 2025/03/05 14:46:04 by rpinazo-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
 
-char *line_remaining(char *stat_buff);
+char    *line_remaining(char *stat_buff);
 char    *ft_line(char *stat_buff);
 char    *read_buff(int fd, char *stat_buff);
 
